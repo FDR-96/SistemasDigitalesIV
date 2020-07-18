@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "238034566428",
+    "firebase_url": "https://sistemasbogie.firebaseio.com",
+    "project_id": "sistemasbogie",
+    "storage_bucket": "sistemasbogie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238034566428:android:e8500edde9724b34240ed9",
+        "android_client_info": {
+          "package_name": "com.example.controlbogie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238034566428-d6s6m7o40ijtrm74tao2rrp1f5ros4ld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrRhi2PbwqbrL_c_T85jJuoK-4U5MPdlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238034566428-d6s6m7o40ijtrm74tao2rrp1f5ros4ld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

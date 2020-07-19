@@ -33,7 +33,7 @@ public class RegActivity extends AppCompatActivity {
     private String mail = "";
 
     FirebaseAuth mAuth;
-    DatabaseReference dDatabaseRef;
+    DatabaseReference mDatabase;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +41,7 @@ public class RegActivity extends AppCompatActivity {
 
 
         mAuth = FirebaseAuth.getInstance();
-        dDatabaseRef = FirebaseDatabase.getInstance().getReference(); //Aqui nos referimos al nodo principal de nuestra base de datos
+        mDatabase = FirebaseDatabase.getInstance().getReference(); //Aqui nos referimos al nodo principal de nuestra base de datos
 
         tUsuario = (EditText) findViewById(R.id.usuario);
         tEmail = (EditText) findViewById(R.id.emailreg);
@@ -71,7 +71,7 @@ public class RegActivity extends AppCompatActivity {
 
             private void registerUser() {
                 //Registramos al usuario en nuestra Firebase
-                mAuth.createUserWithEmailAndPassword(mail, usr).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                mAuth.createUserWithEmailAndPassword(mail, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()) {
@@ -80,7 +80,7 @@ public class RegActivity extends AppCompatActivity {
                             map.put("E-Mail", mail);
                             map.put("Usuario", pass);
                             String id = mAuth.getCurrentUser().getUid();
-                            dDatabaseRef.child("Usuario").child(id).setValue(map).addOnCompleteListener(new OnCompleteListener<Void>() {
+                            mDatabase.child("Usuario").child(id).setValue(map).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task2) {
                                     if (task2.isSuccessful()){ //Si los guardo correctamente en la base de datos vamos a la pantalla menu

@@ -27,13 +27,13 @@
         android:layout_height="52dp"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="248dp"
+        android:layout_marginBottom="336dp"
         android:backgroundTint="#F44336"
         android:text="Datos Almacenados"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -51,11 +51,12 @@
     <ToggleButton
         android:id="@+id/apagarEncender"
         android:layout_width="0dp"
-        android:layout_height="52dp"
+        android:layout_height="42dp"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="300dp"
-        android:backgroundTint="#090808"
+        android:layout_marginBottom="400dp"
+        android:background="#F44336"
+        android:backgroundTint="#000000"
         android:buttonTint="#3A2A2A"
         android:text="ToggleButton"
         android:textColor="#FFFFFF"
@@ -64,19 +65,33 @@
         android:textOn="Encendido"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:text="Raspberry Pi"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/apagarEncender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="260dp"
-        android:text="Check Bogie"
+        android:layout_marginBottom="164dp"
+        android:text="CONTROL A DISTANCIA "
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/apagarEncender"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

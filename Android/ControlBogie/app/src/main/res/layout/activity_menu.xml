@@ -6,6 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MenuActivity">
 
+    <Button
+        android:id="@+id/cerrarSesion"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#E91E3C"
+        android:text="Cerrar sesion"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/datosAlmacenados"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="248dp"
+        android:backgroundTint="#F44336"
+        android:text="Datos Almacenados"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -19,9 +49,9 @@
         app:layout_constraintVertical_bias="0.963" />
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/apagarEncender"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="52dp"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="300dp"
@@ -44,7 +74,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="260dp"
         android:text="Check Bogie"
-        app:layout_constraintBottom_toTopOf="@+id/toggleButton"
+        app:layout_constraintBottom_toTopOf="@+id/apagarEncender"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />

@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.963" />
 
     <Button
-        android:id="@+id/registrar"
+        android:id="@+id/botonregistrar"
         android:layout_width="0dp"
         android:layout_height="52dp"
         android:layout_marginStart="40dp"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.892" />
 
     <Button
-        android:id="@+id/registrar2"
+        android:id="@+id/botoniniciar"
         android:layout_width="0dp"
         android:layout_height="52dp"
         android:layout_marginStart="40dp"
@@ -44,33 +44,38 @@
         android:backgroundTint="#E91E3C"
         android:text="Iniciar"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/registrar"
+        app:layout_constraintBottom_toTopOf="@+id/botonregistrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="40dp"
         android:ems="10"
+        android:hint="E-mail"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/registrar2"
+        app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
+        android:id="@+id/password"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="150dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/botoniniciar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

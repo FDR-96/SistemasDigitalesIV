@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sistemasbogie",
+  "private_key_id": "26fee9294c43a446fc5bcde27090a7a417b02cb5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDycNj7Gj+mK0/M\nJktlPDqbpCEpkorvY3xplLlpD4c1mPTgfPgEab5gf2GvP4D6ARsf2APA1GUSghG2\nKOptESOLvDoO80vNO5xD5EgUJ2+SlTe9ilrfisFEUfMWY+URdKTsCzVfMsyp9n0N\nsTYHr4VJKcoMttkN4gkJV6wGZ3R3+suUeUejNPpQfrCPgh8zD6nsWGl+PbBmswNF\nis8J/124ot7lSnsTqeA7UbfuFzyaaB0yu/LW9lpCJmnKwcbRR4bS2HP+cpUIn2EB\nsKxp1gdxeH3UuFM/DExHw1LN1Wiaf6ZdqoIYG/nMnQZwzYqyzjEj55ZQQhpooKE1\nBsMcWq8nAgMBAAECggEARSiJzP+M3pMGXV8jLMrEkTd9ukUyWt2PVPL2/RBP6qsq\nV4tumJutkgtkS0CbQzXjje7qCyzLdD8kXElJrjkwYaEdEry2h+IUTo2lPhKN0ku8\nrdX03EXRofKanG18n8EddrQv0mtEVMuamrhNiF26cMd5+qyCOGKdX0viJ6WFZN/Y\n31RPXGvBmvgGhRs4NR2VBRfWZRvuG9HBgUh7eqeOlSyu3GS+ink0pM/EEdr9Mvki\njBdArdKE8j5iMHNl1XJo6RK6EqHp3dtZ5HkouXgVf6NfTC34iWK0PRiXWrACcxXQ\nkiXD2AaYBmUjPwCw5KpvT0Qzh/F/o4XpRfrADjaMYQKBgQD+M0N/LSVjZWB0SqTY\nTVccGTmIBHUmLW4L2mhfmK3eos5bD6UPB7BuopZ/knzbDQIMRkzaG9eyO0Kyx6a8\nNRsg5ZALYdQI0SNvvWgyKDE8do5OGpQD5n9rJuT33HrHWbgU9ySWvvKlZW3LUn7j\nEj9BNRtqvMJMamN0scRxpgUblwKBgQD0KEUfv0rJQm7UJE4GYfcFmy9D5EJzP9ua\nr4GfQivPBJYc+0uGbmEdmbYuvIndrzeRzb/kM56uGKxAEplAI9vnIdRsNVDUjIgQ\ni4sbgKLuVy7xP/N4F8bZYW+OEgyTN0XMo5rwYG08Le4DgdUc2jQYSqkFkyENJbIz\nift0MIC68QKBgQCFoUVWUdFZ0y1FdQf7fYzRhKEt08oR68fyCzrbJlQguc1pKWxH\n3m7teiNLpSJltQzijwJPlltpoqWJflM0lWZRgNycXy0sBWVvlE52L5LSijB89pPh\nCQbquWOcuRcCPTP8MX/Wj0LXl96ECDYUAL+n89cZ4Wjy6uqlqd3vMKt2uQKBgC23\nKJI0MB2U+clw7scVKrp6/xOYNrT7nPPOrteR/T/q3OyaRN7r5fUz5b/Ef4/pkd8U\nBj0FSU3RwtbQZK90x2T0maCVLwhNM+DdL/O7V0aHPnvffIfc89eZ/dg9GuupqsER\nVR5y/6EH/IvdkHixhpWRzSoFDWg3ybEKwfFUb5YRAoGAeRl5CMymlZS9uFCrB5pi\nh+0+JxgvwldVCpqC/KgkLRMGszRxMcw4gbQqURBjs6W09GFHaYR4CFD+LiV4/BlO\nCg8P59f0dpVysYj98NYBFZlhR6Qepa1p5dzKAVLC8f9ZZPHN9aUawURrCqVmYWzs\njG/CE38GMYLczeDwTtjSihY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-znigy@sistemasbogie.iam.gserviceaccount.com",
+  "client_id": "108764872488596701676",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-znigy%40sistemasbogie.iam.gserviceaccount.com"
+}
